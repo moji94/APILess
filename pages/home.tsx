@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export default function HomePage() {
   return (
-    <HomeLayout title="StyledComponent Dashboard">
+    <HomeLayout title="StyledComponent HomePage">
       <div></div>
     </HomeLayout>
   )
