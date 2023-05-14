@@ -1,0 +1,8 @@
+@charset "utf-8";
+@font-face {
+  font-family: "Vazir";
+  src: url("./Vazir.ttf") format("truetype");
+}
+body {
+  font-family: Vazir;
+}
