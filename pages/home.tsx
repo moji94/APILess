@@ -1,4 +1,4 @@
-import { HomeHeader, HomeLayout } from '@/components'
+import { HomeHeader, HomeLayout, Rhombuses } from '@/components'
 import styled from 'styled-components'
 
 export default function HomePage() {
@@ -6,6 +6,7 @@ export default function HomePage() {
     <HomeLayout title="StyledComponent HomePage">
       <Wrapper>
         <HomeHeader></HomeHeader>
+        <Rhombuses></Rhombuses>
       </Wrapper>
     </HomeLayout>
   )
@@ -14,7 +15,8 @@ const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
-  background-color: #fff;
+  align-items: center;
+  background-color: #000;
 `
