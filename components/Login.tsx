@@ -33,7 +33,7 @@ export const Login = (): JSX.Element => {
             type="button"
             value="ورود"
             onClick={() => {
-              router.push('/dashboard')
+              router.push('/home')
               setAc('dash')
             }}
           />

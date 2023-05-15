@@ -1,10 +1,12 @@
-import { HomeLayout } from '@/components'
+import { HomeHeader, HomeLayout } from '@/components'
 import styled from 'styled-components'
 
 export default function HomePage() {
   return (
     <HomeLayout title="StyledComponent HomePage">
-      <div></div>
+      <Wrapper>
+        <HomeHeader></HomeHeader>
+      </Wrapper>
     </HomeLayout>
   )
 }
@@ -14,5 +16,5 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 10px;
+  background-color: #fff;
 `
